@@ -1,0 +1,18 @@
+{ 
+  repository, clone, add, commit, push, pull
+  cd: Change directory,
+  ls: leemos donde estamos,
+  cd ../demo2
+  git status,
+  git add . ||   agrega todos los files
+  git add index.html ||   agrega solo el index
+  git commit -m "message" ||   comitea cambios con mensaje adjunto
+  git pull ||   traes cambios de GitHub a local
+  git push origin main ||   lo pushea a GitHub a la rama main desde la pc (origin)
+  git init ||   inicia un repo de la carpeta en la que estas, en GitHub
+  git remote add origin https://github.com/kbcruz6/demo2.git ||    linkea el repo que iniciaste local, con el de GitHub (previamente creado con el mismo nombre)
+  git remote -v  ||    te muestra con que esta linkeado el repo
+  
+  
+
+  
