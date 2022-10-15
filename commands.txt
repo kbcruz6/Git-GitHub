@@ -6,8 +6,9 @@
   git add . || (agrega todos los files)
   git add index.html || (agrega solo el index)
   git commit -m "message" || (comitea cambios con mensaje adjunto)
-  git push || (lo pushea a GitHub)
   git pull || (traes cambios de GitHub a local)
+  git push origin main || (lo pushea a GitHub)
+
   
 
   
