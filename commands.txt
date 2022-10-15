@@ -1,0 +1,5 @@
+{ 
+  repository, clone, add, commit, push, pull
+  cd: Change directory,
+  ls: leemos donde estamos,
+  
