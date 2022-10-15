@@ -17,6 +17,7 @@
   git checkout main  ||    Te mueve entre branches, asi te lleva a la main    .
   git diff  ||    Te muestra cambios realizados entre la main y el branch   .
   git branch -d nombreDelBranch  ||    Elimina ese branch
+  git commit -am "add and commit at the same time"  ||    Agrega y comitea al mismo tiempo
 
   321321
 
