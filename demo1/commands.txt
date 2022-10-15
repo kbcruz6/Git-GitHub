@@ -18,7 +18,11 @@
   git diff  ||    Te muestra cambios realizados entre la main y el branch   .
   git branch -d nombreDelBranch  ||    Elimina ese branch
   git commit -am "add and commit at the same time"  ||    Agrega y comitea al mismo tiempo
+  git reset HEAD~1  ||    Te descomietea el ultimo commit
+  git log  ||    Te muestra todo el historial de cambios, add, commit, etc
+  git reset b2ed4edd35cae2abcd4b1978273a90d65b678c3d  ||   Te resetea hasta antes de el commit que pusiste el hash, (el hash lo obtenes de git log)
+  git reset --hard b2ed4edd35cae2abcd4b1978273a90d65b678c3d ||    Te vuelve hasta alla y borra todo lo posterior
 
-  321321
+  
 
   
