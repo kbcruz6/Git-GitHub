@@ -15,5 +15,6 @@
   git branch  ||    Nos muestra las branches que hay, si todavia no creaste, solo te muestra main
   git checkout -b feature-1  ||    Crea nueva branch, con el nombre "feature-1" y nos mueve a ella, para trabajar archivos
   git checkout main  ||    Te mueve entre branches, asi te lleva a la main    .
+  git diff  ||    Te muestra cambios realizados entre la main y el branch
 
   
